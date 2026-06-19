@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-06-17T10:27:31.5738469Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-06-19T07:37:19.5038212Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -834,6 +834,7 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
+                        <rd:Selected>true</rd:Selected>
                         <Textbox Name="Document_Type">
                           <rd:DefaultName>Document_Type</rd:DefaultName>
                           <CanGrow>true</CanGrow>
@@ -842,7 +843,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Document_Type.Value</Value>
+                                  <Value>=First(Fields!DocumentTypeText.Value, "DataSet_Result")</Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>9pt</FontSize>
@@ -1263,7 +1264,7 @@
                 <TablixMember>
                   <Group Name="Details">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!Document_Type.Value</GroupExpression>
+                      <GroupExpression>=Fields!DocumentTypeText.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                 </TablixMember>
@@ -1274,7 +1275,6 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
             <Top>1.84944in</Top>
-            <Left>0in</Left>
             <Height>0.98333in</Height>
             <Width>9.34997in</Width>
             <ZIndex>2</ZIndex>
@@ -1309,7 +1309,6 @@
         <PageHeight>13in</PageHeight>
         <PageWidth>10in</PageWidth>
         <LeftMargin>0.25in</LeftMargin>
-        <RightMargin>0in</RightMargin>
         <TopMargin>0.25in</TopMargin>
         <BottomMargin>0.25in</BottomMargin>
         <Style />
