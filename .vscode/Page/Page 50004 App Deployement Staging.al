@@ -185,7 +185,7 @@ page 60000 "App Deployment Staging"
                 var
                     AppDeploymentMgt: Codeunit "App Deployment Management";
                 begin
-                    // AppDeploymentMgt.CheckOperationStatus(Rec);
+                    //  AppDeploymentMgt.CheckOperationStatus(Rec);
                     CurrPage.Update(false);
                     Message('Status refreshed.');
                 end;
