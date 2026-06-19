@@ -4,10 +4,7 @@ table 50004 "Job work Line"
 
     fields
     {
-        field(25; "No."; Code[20])
-        {
-            DataClassification = ToBeClassified;
-        }
+
         field(1; "Outward Challan No."; Code[30])
         {
             DataClassification = ToBeClassified;
@@ -155,6 +152,10 @@ table 50004 "Job work Line"
             DataClassification = ToBeClassified;
         }
         field(24; "Inward SGST"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(25; "No."; Code[20])
         {
             DataClassification = ToBeClassified;
         }
