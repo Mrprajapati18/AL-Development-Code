@@ -1,10 +1,11 @@
 Page 50017 "Voucher Docuemnt Type"
 {
     PageType = List;
-    Caption = 'Voucher Docuemnt Type';
+    Caption = 'Voucher Document Type List';
     ApplicationArea = All;
     UsageCategory =  Lists;
     SourceTable = "Voucher Document Type";
+    CardPageId = "Voucher Document Type card";
 
     layout
     {
