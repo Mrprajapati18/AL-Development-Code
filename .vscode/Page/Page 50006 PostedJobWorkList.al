@@ -1,10 +1,10 @@
-page 50140 "Posted Job Work List"
+page 50006 "Posted Job Work List"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Job Work Header";
-    CardPageId = 50141;
+    CardPageId = 50005;
     Editable = false;
     SourceTableView = where(Posted = filter(true));
 

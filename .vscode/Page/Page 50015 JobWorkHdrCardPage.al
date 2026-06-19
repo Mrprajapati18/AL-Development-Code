@@ -1,4 +1,4 @@
-page 50121 "Job Work Card"
+page 50015 "Job Work Card"
 {
     PageType = Card;
     // ApplicationArea = All;

@@ -1,4 +1,4 @@
-page 50123 "Job Work List Part"
+page 50007 "Job Work List Part"
 {
     PageType = ListPart;
     // ApplicationArea = All;

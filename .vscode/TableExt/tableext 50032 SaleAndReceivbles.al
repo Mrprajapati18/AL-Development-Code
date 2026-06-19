@@ -1,4 +1,4 @@
-tableextension 50130 "Sales Setup Job Work Ext" extends "Sales & Receivables Setup"
+tableextension 50032 "Sales Setup Job Work Ext" extends "Sales & Receivables Setup"
 {
     fields
     {
