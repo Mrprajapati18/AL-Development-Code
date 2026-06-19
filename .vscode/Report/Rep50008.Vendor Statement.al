@@ -11,7 +11,7 @@ report 50008 "Vendor Statment"
     {
         dataitem(Vendor; Vendor)
         {
-            // RequestFilterFields = "No.";
+             RequestFilterFields = "No.";
             column(Rp_Date; Rp_Date)
             {
             }

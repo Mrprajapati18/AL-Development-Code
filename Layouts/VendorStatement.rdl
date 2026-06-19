@@ -24,346 +24,6 @@
       <rd:DataSourceID>4156cd45-2aed-4306-a507-ed9bb010e524</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="Rp_Date">
-          <DataField>Rp_Date</DataField>
-        </Field>
-        <Field Name="CmpName">
-          <DataField>CmpName</DataField>
-        </Field>
-        <Field Name="CmpAddr">
-          <DataField>CmpAddr</DataField>
-        </Field>
-        <Field Name="CmpAddr2">
-          <DataField>CmpAddr2</DataField>
-        </Field>
-        <Field Name="CmpCity">
-          <DataField>CmpCity</DataField>
-        </Field>
-        <Field Name="CmpPhone">
-          <DataField>CmpPhone</DataField>
-        </Field>
-        <Field Name="CmpPhone2">
-          <DataField>CmpPhone2</DataField>
-        </Field>
-        <Field Name="CmpMail">
-          <DataField>CmpMail</DataField>
-        </Field>
-        <Field Name="CmpPostCode">
-          <DataField>CmpPostCode</DataField>
-        </Field>
-        <Field Name="CmpCountry">
-          <DataField>CmpCountry</DataField>
-        </Field>
-        <Field Name="CmpTinNo">
-          <DataField>CmpTinNo</DataField>
-        </Field>
-        <Field Name="CmpPanNo">
-          <DataField>CmpPanNo</DataField>
-        </Field>
-        <Field Name="CmpPicture">
-          <DataField>CmpPicture</DataField>
-        </Field>
-        <Field Name="Cust_No">
-          <DataField>Cust_No</DataField>
-        </Field>
-        <Field Name="Cust_Name">
-          <DataField>Cust_Name</DataField>
-        </Field>
-        <Field Name="Cust_Addr">
-          <DataField>Cust_Addr</DataField>
-        </Field>
-        <Field Name="Cust_Addr2">
-          <DataField>Cust_Addr2</DataField>
-        </Field>
-        <Field Name="Cust_City">
-          <DataField>Cust_City</DataField>
-        </Field>
-        <Field Name="Cust_Post_Code">
-          <DataField>Cust_Post_Code</DataField>
-        </Field>
-        <Field Name="Cust_Country">
-          <DataField>Cust_Country</DataField>
-        </Field>
-        <Field Name="Cust_Contact">
-          <DataField>Cust_Contact</DataField>
-        </Field>
-        <Field Name="Cust_Phone">
-          <DataField>Cust_Phone</DataField>
-        </Field>
-        <Field Name="Cust_Mob2">
-          <DataField>Cust_Mob2</DataField>
-        </Field>
-        <Field Name="Cust_Email">
-          <DataField>Cust_Email</DataField>
-        </Field>
-        <Field Name="Cust_TinNo">
-          <DataField>Cust_TinNo</DataField>
-        </Field>
-        <Field Name="Cust_Pan">
-          <DataField>Cust_Pan</DataField>
-        </Field>
-        <Field Name="CustOpAmt">
-          <DataField>CustOpAmt</DataField>
-        </Field>
-        <Field Name="CustOpAmtFormat">
-          <DataField>CustOpAmtFormat</DataField>
-        </Field>
-        <Field Name="StartDate">
-          <DataField>StartDate</DataField>
-        </Field>
-        <Field Name="EndDate">
-          <DataField>EndDate</DataField>
-        </Field>
-        <Field Name="Naration_H">
-          <DataField>Naration_H</DataField>
-        </Field>
-        <Field Name="RecNotFound">
-          <DataField>RecNotFound</DataField>
-        </Field>
-        <Field Name="CloseAmtToWord">
-          <DataField>CloseAmtToWord</DataField>
-        </Field>
-        <Field Name="LedEntryNo">
-          <DataField>LedEntryNo</DataField>
-        </Field>
-        <Field Name="Credit_Amount">
-          <DataField>Credit_Amount</DataField>
-        </Field>
-        <Field Name="Credit_AmountFormat">
-          <DataField>Credit_AmountFormat</DataField>
-        </Field>
-        <Field Name="PostingDate_VendorLedgerEntry">
-          <DataField>PostingDate_VendorLedgerEntry</DataField>
-        </Field>
-        <Field Name="DocumentNo_VendorLedgerEntry">
-          <DataField>DocumentNo_VendorLedgerEntry</DataField>
-        </Field>
-        <Field Name="ExternalDocumentNo_VendorLedgerEntry">
-          <DataField>ExternalDocumentNo_VendorLedgerEntry</DataField>
-        </Field>
-        <Field Name="Posting_Date">
-          <DataField>Posting_Date</DataField>
-        </Field>
-        <Field Name="Doct_Type">
-          <DataField>Doct_Type</DataField>
-        </Field>
-        <Field Name="Doct_No">
-          <DataField>Doct_No</DataField>
-        </Field>
-        <Field Name="Doct_Desc">
-          <DataField>Doct_Desc</DataField>
-        </Field>
-        <Field Name="UserIdCrBy">
-          <DataField>UserIdCrBy</DataField>
-        </Field>
-        <Field Name="DueDate">
-          <DataField>DueDate</DataField>
-        </Field>
-        <Field Name="Amount">
-          <DataField>Amount</DataField>
-        </Field>
-        <Field Name="AmountFormat">
-          <DataField>AmountFormat</DataField>
-        </Field>
-        <Field Name="DrAmt">
-          <DataField>DrAmt</DataField>
-        </Field>
-        <Field Name="DrAmtFormat">
-          <DataField>DrAmtFormat</DataField>
-        </Field>
-        <Field Name="CrAmt">
-          <DataField>CrAmt</DataField>
-        </Field>
-        <Field Name="CrAmtFormat">
-          <DataField>CrAmtFormat</DataField>
-        </Field>
-        <Field Name="AmtToWords">
-          <DataField>AmtToWords</DataField>
-        </Field>
-        <Field Name="NarrarionTeXt">
-          <DataField>NarrarionTeXt</DataField>
-        </Field>
-        <Field Name="TDSAmnt_1">
-          <DataField>TDSAmnt_1</DataField>
-        </Field>
-        <Field Name="TDSAmnt_1Format">
-          <DataField>TDSAmnt_1Format</DataField>
-        </Field>
-        <Field Name="TDSText_1">
-          <DataField>TDSText_1</DataField>
-        </Field>
-        <Field Name="TDSAmnt_2">
-          <DataField>TDSAmnt_2</DataField>
-        </Field>
-        <Field Name="TDSAmnt_2Format">
-          <DataField>TDSAmnt_2Format</DataField>
-        </Field>
-        <Field Name="TDSText_2">
-          <DataField>TDSText_2</DataField>
-        </Field>
-        <Field Name="TDSAmnt_3">
-          <DataField>TDSAmnt_3</DataField>
-        </Field>
-        <Field Name="TDSAmnt_3Format">
-          <DataField>TDSAmnt_3Format</DataField>
-        </Field>
-        <Field Name="TDSText_3">
-          <DataField>TDSText_3</DataField>
-        </Field>
-        <Field Name="TDSAmnt_4">
-          <DataField>TDSAmnt_4</DataField>
-        </Field>
-        <Field Name="TDSAmnt_4Format">
-          <DataField>TDSAmnt_4Format</DataField>
-        </Field>
-        <Field Name="TDSText_4">
-          <DataField>TDSText_4</DataField>
-        </Field>
-        <Field Name="TDSAmnt_5">
-          <DataField>TDSAmnt_5</DataField>
-        </Field>
-        <Field Name="TDSAmnt_5Format">
-          <DataField>TDSAmnt_5Format</DataField>
-        </Field>
-        <Field Name="TDSText_5">
-          <DataField>TDSText_5</DataField>
-        </Field>
-        <Field Name="RunningAmtVend">
-          <DataField>RunningAmtVend</DataField>
-        </Field>
-        <Field Name="RunningAmtVendFormat">
-          <DataField>RunningAmtVendFormat</DataField>
-        </Field>
-        <Field Name="CustOpAmt2">
-          <DataField>CustOpAmt2</DataField>
-        </Field>
-        <Field Name="CustOpAmt2Format">
-          <DataField>CustOpAmt2Format</DataField>
-        </Field>
-        <Field Name="ItemQty">
-          <DataField>ItemQty</DataField>
-        </Field>
-        <Field Name="ItemQtyFormat">
-          <DataField>ItemQtyFormat</DataField>
-        </Field>
-        <Field Name="ItemRate">
-          <DataField>ItemRate</DataField>
-        </Field>
-        <Field Name="ItemRateFormat">
-          <DataField>ItemRateFormat</DataField>
-        </Field>
-        <Field Name="Vehcile">
-          <DataField>Vehcile</DataField>
-        </Field>
-        <Field Name="ItemAmount">
-          <DataField>ItemAmount</DataField>
-        </Field>
-        <Field Name="ItemAmountFormat">
-          <DataField>ItemAmountFormat</DataField>
-        </Field>
-        <Field Name="ItemDescri">
-          <DataField>ItemDescri</DataField>
-        </Field>
-        <Field Name="ItemDEsc2">
-          <DataField>ItemDEsc2</DataField>
-        </Field>
-        <Field Name="FreightAmount">
-          <DataField>FreightAmount</DataField>
-        </Field>
-        <Field Name="FreightAmountFormat">
-          <DataField>FreightAmountFormat</DataField>
-        </Field>
-        <Field Name="FreightName">
-          <DataField>FreightName</DataField>
-        </Field>
-        <Field Name="Remaining_Amount">
-          <DataField>Remaining_Amount</DataField>
-        </Field>
-        <Field Name="Remaining_AmountFormat">
-          <DataField>Remaining_AmountFormat</DataField>
-        </Field>
-        <Field Name="AmountinWord">
-          <DataField>AmountinWord</DataField>
-        </Field>
-        <Field Name="billtext">
-          <DataField>billtext</DataField>
-        </Field>
-        <Field Name="billdateetxt">
-          <DataField>billdateetxt</DataField>
-        </Field>
-        <Field Name="TotalAmount">
-          <DataField>TotalAmount</DataField>
-        </Field>
-        <Field Name="TotalAmountFormat">
-          <DataField>TotalAmountFormat</DataField>
-        </Field>
-        <Field Name="Doco">
-          <DataField>Doco</DataField>
-        </Field>
-        <Field Name="BillNo">
-          <DataField>BillNo</DataField>
-        </Field>
-        <Field Name="Biildate">
-          <DataField>Biildate</DataField>
-        </Field>
-        <Field Name="text01">
-          <DataField>text01</DataField>
-        </Field>
-        <Field Name="RunningAmt">
-          <DataField>RunningAmt</DataField>
-        </Field>
-        <Field Name="RunningAmtFormat">
-          <DataField>RunningAmtFormat</DataField>
-        </Field>
-        <Field Name="TDSBaseAmount_TDSEntry">
-          <DataField>TDSBaseAmount_TDSEntry</DataField>
-        </Field>
-        <Field Name="TDSBaseAmount_TDSEntryFormat">
-          <DataField>TDSBaseAmount_TDSEntryFormat</DataField>
-        </Field>
-        <Field Name="TDSNatureofDeduction_TDSEntry">
-          <DataField>TDSNatureofDeduction_TDSEntry</DataField>
-        </Field>
-        <Field Name="TDSAmount_TDSEntry">
-          <DataField>TDSAmount_TDSEntry</DataField>
-        </Field>
-        <Field Name="TDSAmount_TDSEntryFormat">
-          <DataField>TDSAmount_TDSEntryFormat</DataField>
-        </Field>
-        <Field Name="DrAmt_TDS">
-          <DataField>DrAmt_TDS</DataField>
-        </Field>
-        <Field Name="DrAmt_TDSFormat">
-          <DataField>DrAmt_TDSFormat</DataField>
-        </Field>
-        <Field Name="CrAmt_TDS">
-          <DataField>CrAmt_TDS</DataField>
-        </Field>
-        <Field Name="CrAmt_TDSFormat">
-          <DataField>CrAmt_TDSFormat</DataField>
-        </Field>
-        <Field Name="DrAmt2">
-          <DataField>DrAmt2</DataField>
-        </Field>
-        <Field Name="DrAmt2Format">
-          <DataField>DrAmt2Format</DataField>
-        </Field>
-        <Field Name="CrAmt2">
-          <DataField>CrAmt2</DataField>
-        </Field>
-        <Field Name="CrAmt2Format">
-          <DataField>CrAmt2Format</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -4279,12 +3939,6 @@
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParametersLayout>
-    <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
-    </GridLayoutDefinition>
-  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -4788,4 +4442,344 @@ Yb4mIguwOygn3COJsAJnISaO4HeKCC9hUlCKxQJhC5DJk3j/JsXM90IG46Qx5YsDWrQ3aG9X316hPQao
   </EmbeddedImages>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Rp_Date">
+          <DataField>Rp_Date</DataField>
+        </Field>
+        <Field Name="CmpName">
+          <DataField>CmpName</DataField>
+        </Field>
+        <Field Name="CmpAddr">
+          <DataField>CmpAddr</DataField>
+        </Field>
+        <Field Name="CmpAddr2">
+          <DataField>CmpAddr2</DataField>
+        </Field>
+        <Field Name="CmpCity">
+          <DataField>CmpCity</DataField>
+        </Field>
+        <Field Name="CmpPhone">
+          <DataField>CmpPhone</DataField>
+        </Field>
+        <Field Name="CmpPhone2">
+          <DataField>CmpPhone2</DataField>
+        </Field>
+        <Field Name="CmpMail">
+          <DataField>CmpMail</DataField>
+        </Field>
+        <Field Name="CmpPostCode">
+          <DataField>CmpPostCode</DataField>
+        </Field>
+        <Field Name="CmpCountry">
+          <DataField>CmpCountry</DataField>
+        </Field>
+        <Field Name="CmpTinNo">
+          <DataField>CmpTinNo</DataField>
+        </Field>
+        <Field Name="CmpPanNo">
+          <DataField>CmpPanNo</DataField>
+        </Field>
+        <Field Name="CmpPicture">
+          <DataField>CmpPicture</DataField>
+        </Field>
+        <Field Name="Cust_No">
+          <DataField>Cust_No</DataField>
+        </Field>
+        <Field Name="Cust_Name">
+          <DataField>Cust_Name</DataField>
+        </Field>
+        <Field Name="Cust_Addr">
+          <DataField>Cust_Addr</DataField>
+        </Field>
+        <Field Name="Cust_Addr2">
+          <DataField>Cust_Addr2</DataField>
+        </Field>
+        <Field Name="Cust_City">
+          <DataField>Cust_City</DataField>
+        </Field>
+        <Field Name="Cust_Post_Code">
+          <DataField>Cust_Post_Code</DataField>
+        </Field>
+        <Field Name="Cust_Country">
+          <DataField>Cust_Country</DataField>
+        </Field>
+        <Field Name="Cust_Contact">
+          <DataField>Cust_Contact</DataField>
+        </Field>
+        <Field Name="Cust_Phone">
+          <DataField>Cust_Phone</DataField>
+        </Field>
+        <Field Name="Cust_Mob2">
+          <DataField>Cust_Mob2</DataField>
+        </Field>
+        <Field Name="Cust_Email">
+          <DataField>Cust_Email</DataField>
+        </Field>
+        <Field Name="Cust_TinNo">
+          <DataField>Cust_TinNo</DataField>
+        </Field>
+        <Field Name="Cust_Pan">
+          <DataField>Cust_Pan</DataField>
+        </Field>
+        <Field Name="CustOpAmt">
+          <DataField>CustOpAmt</DataField>
+        </Field>
+        <Field Name="CustOpAmtFormat">
+          <DataField>CustOpAmtFormat</DataField>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+        </Field>
+        <Field Name="Naration_H">
+          <DataField>Naration_H</DataField>
+        </Field>
+        <Field Name="RecNotFound">
+          <DataField>RecNotFound</DataField>
+        </Field>
+        <Field Name="CloseAmtToWord">
+          <DataField>CloseAmtToWord</DataField>
+        </Field>
+        <Field Name="LedEntryNo">
+          <DataField>LedEntryNo</DataField>
+        </Field>
+        <Field Name="Credit_Amount">
+          <DataField>Credit_Amount</DataField>
+        </Field>
+        <Field Name="Credit_AmountFormat">
+          <DataField>Credit_AmountFormat</DataField>
+        </Field>
+        <Field Name="PostingDate_VendorLedgerEntry">
+          <DataField>PostingDate_VendorLedgerEntry</DataField>
+        </Field>
+        <Field Name="DocumentNo_VendorLedgerEntry">
+          <DataField>DocumentNo_VendorLedgerEntry</DataField>
+        </Field>
+        <Field Name="ExternalDocumentNo_VendorLedgerEntry">
+          <DataField>ExternalDocumentNo_VendorLedgerEntry</DataField>
+        </Field>
+        <Field Name="Posting_Date">
+          <DataField>Posting_Date</DataField>
+        </Field>
+        <Field Name="Doct_Type">
+          <DataField>Doct_Type</DataField>
+        </Field>
+        <Field Name="Doct_No">
+          <DataField>Doct_No</DataField>
+        </Field>
+        <Field Name="Doct_Desc">
+          <DataField>Doct_Desc</DataField>
+        </Field>
+        <Field Name="UserIdCrBy">
+          <DataField>UserIdCrBy</DataField>
+        </Field>
+        <Field Name="DueDate">
+          <DataField>DueDate</DataField>
+        </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+        </Field>
+        <Field Name="AmountFormat">
+          <DataField>AmountFormat</DataField>
+        </Field>
+        <Field Name="DrAmt">
+          <DataField>DrAmt</DataField>
+        </Field>
+        <Field Name="DrAmtFormat">
+          <DataField>DrAmtFormat</DataField>
+        </Field>
+        <Field Name="CrAmt">
+          <DataField>CrAmt</DataField>
+        </Field>
+        <Field Name="CrAmtFormat">
+          <DataField>CrAmtFormat</DataField>
+        </Field>
+        <Field Name="AmtToWords">
+          <DataField>AmtToWords</DataField>
+        </Field>
+        <Field Name="NarrarionTeXt">
+          <DataField>NarrarionTeXt</DataField>
+        </Field>
+        <Field Name="TDSAmnt_1">
+          <DataField>TDSAmnt_1</DataField>
+        </Field>
+        <Field Name="TDSAmnt_1Format">
+          <DataField>TDSAmnt_1Format</DataField>
+        </Field>
+        <Field Name="TDSText_1">
+          <DataField>TDSText_1</DataField>
+        </Field>
+        <Field Name="TDSAmnt_2">
+          <DataField>TDSAmnt_2</DataField>
+        </Field>
+        <Field Name="TDSAmnt_2Format">
+          <DataField>TDSAmnt_2Format</DataField>
+        </Field>
+        <Field Name="TDSText_2">
+          <DataField>TDSText_2</DataField>
+        </Field>
+        <Field Name="TDSAmnt_3">
+          <DataField>TDSAmnt_3</DataField>
+        </Field>
+        <Field Name="TDSAmnt_3Format">
+          <DataField>TDSAmnt_3Format</DataField>
+        </Field>
+        <Field Name="TDSText_3">
+          <DataField>TDSText_3</DataField>
+        </Field>
+        <Field Name="TDSAmnt_4">
+          <DataField>TDSAmnt_4</DataField>
+        </Field>
+        <Field Name="TDSAmnt_4Format">
+          <DataField>TDSAmnt_4Format</DataField>
+        </Field>
+        <Field Name="TDSText_4">
+          <DataField>TDSText_4</DataField>
+        </Field>
+        <Field Name="TDSAmnt_5">
+          <DataField>TDSAmnt_5</DataField>
+        </Field>
+        <Field Name="TDSAmnt_5Format">
+          <DataField>TDSAmnt_5Format</DataField>
+        </Field>
+        <Field Name="TDSText_5">
+          <DataField>TDSText_5</DataField>
+        </Field>
+        <Field Name="RunningAmtVend">
+          <DataField>RunningAmtVend</DataField>
+        </Field>
+        <Field Name="RunningAmtVendFormat">
+          <DataField>RunningAmtVendFormat</DataField>
+        </Field>
+        <Field Name="CustOpAmt2">
+          <DataField>CustOpAmt2</DataField>
+        </Field>
+        <Field Name="CustOpAmt2Format">
+          <DataField>CustOpAmt2Format</DataField>
+        </Field>
+        <Field Name="ItemQty">
+          <DataField>ItemQty</DataField>
+        </Field>
+        <Field Name="ItemQtyFormat">
+          <DataField>ItemQtyFormat</DataField>
+        </Field>
+        <Field Name="ItemRate">
+          <DataField>ItemRate</DataField>
+        </Field>
+        <Field Name="ItemRateFormat">
+          <DataField>ItemRateFormat</DataField>
+        </Field>
+        <Field Name="Vehcile">
+          <DataField>Vehcile</DataField>
+        </Field>
+        <Field Name="ItemAmount">
+          <DataField>ItemAmount</DataField>
+        </Field>
+        <Field Name="ItemAmountFormat">
+          <DataField>ItemAmountFormat</DataField>
+        </Field>
+        <Field Name="ItemDescri">
+          <DataField>ItemDescri</DataField>
+        </Field>
+        <Field Name="ItemDEsc2">
+          <DataField>ItemDEsc2</DataField>
+        </Field>
+        <Field Name="FreightAmount">
+          <DataField>FreightAmount</DataField>
+        </Field>
+        <Field Name="FreightAmountFormat">
+          <DataField>FreightAmountFormat</DataField>
+        </Field>
+        <Field Name="FreightName">
+          <DataField>FreightName</DataField>
+        </Field>
+        <Field Name="Remaining_Amount">
+          <DataField>Remaining_Amount</DataField>
+        </Field>
+        <Field Name="Remaining_AmountFormat">
+          <DataField>Remaining_AmountFormat</DataField>
+        </Field>
+        <Field Name="AmountinWord">
+          <DataField>AmountinWord</DataField>
+        </Field>
+        <Field Name="billtext">
+          <DataField>billtext</DataField>
+        </Field>
+        <Field Name="billdateetxt">
+          <DataField>billdateetxt</DataField>
+        </Field>
+        <Field Name="TotalAmount">
+          <DataField>TotalAmount</DataField>
+        </Field>
+        <Field Name="TotalAmountFormat">
+          <DataField>TotalAmountFormat</DataField>
+        </Field>
+        <Field Name="Doco">
+          <DataField>Doco</DataField>
+        </Field>
+        <Field Name="BillNo">
+          <DataField>BillNo</DataField>
+        </Field>
+        <Field Name="Biildate">
+          <DataField>Biildate</DataField>
+        </Field>
+        <Field Name="text01">
+          <DataField>text01</DataField>
+        </Field>
+        <Field Name="RunningAmt">
+          <DataField>RunningAmt</DataField>
+        </Field>
+        <Field Name="RunningAmtFormat">
+          <DataField>RunningAmtFormat</DataField>
+        </Field>
+        <Field Name="TDSBaseAmount_TDSEntry">
+          <DataField>TDSBaseAmount_TDSEntry</DataField>
+        </Field>
+        <Field Name="TDSBaseAmount_TDSEntryFormat">
+          <DataField>TDSBaseAmount_TDSEntryFormat</DataField>
+        </Field>
+        <Field Name="TDSNatureofDeduction_TDSEntry">
+          <DataField>TDSNatureofDeduction_TDSEntry</DataField>
+        </Field>
+        <Field Name="TDSAmount_TDSEntry">
+          <DataField>TDSAmount_TDSEntry</DataField>
+        </Field>
+        <Field Name="TDSAmount_TDSEntryFormat">
+          <DataField>TDSAmount_TDSEntryFormat</DataField>
+        </Field>
+        <Field Name="DrAmt_TDS">
+          <DataField>DrAmt_TDS</DataField>
+        </Field>
+        <Field Name="DrAmt_TDSFormat">
+          <DataField>DrAmt_TDSFormat</DataField>
+        </Field>
+        <Field Name="CrAmt_TDS">
+          <DataField>CrAmt_TDS</DataField>
+        </Field>
+        <Field Name="CrAmt_TDSFormat">
+          <DataField>CrAmt_TDSFormat</DataField>
+        </Field>
+        <Field Name="DrAmt2">
+          <DataField>DrAmt2</DataField>
+        </Field>
+        <Field Name="DrAmt2Format">
+          <DataField>DrAmt2Format</DataField>
+        </Field>
+        <Field Name="CrAmt2">
+          <DataField>CrAmt2</DataField>
+        </Field>
+        <Field Name="CrAmt2Format">
+          <DataField>CrAmt2Format</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
