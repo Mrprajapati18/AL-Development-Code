@@ -1,4 +1,3 @@
-
 codeunit 50000 "PBS Event Subscribers"
 {
     Permissions = tabledata "Purch. Rcpt. Line" = rm,

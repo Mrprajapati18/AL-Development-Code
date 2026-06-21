@@ -1,4 +1,3 @@
-
 report 50000 "Credit Note" // Durgesh 06 May 2026
 {
     ApplicationArea = All;
@@ -153,7 +152,6 @@ report 50000 "Credit Note" // Durgesh 06 May 2026
                 column(Line_Amount; "Line Amount")
                 {
                 }
-
                 trigger OnAfterGetRecord()
                 begin
                     if (Quantity = 0) or ("Qty. per Unit of Measure" = 0) then
