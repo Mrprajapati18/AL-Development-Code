@@ -211,10 +211,10 @@ codeunit 60000 "App Deployment Management"
 
         // Build email content
         if AppDeploymentStaging.Status = AppDeploymentStaging.Status::Deployed then begin
-            Subject := StrSubstNo('✓ App Deployment Successful - %1', AppDeploymentStaging."App File Name");
+            Subject := StrSubstNo('App Deployment Successful - %1', AppDeploymentStaging."App File Name");
             Body := BuildSuccessEmailBody(AppDeploymentStaging);
         end else begin
-            Subject := StrSubstNo('✗ App Deployment Failed - %1', AppDeploymentStaging."App File Name");
+            Subject := StrSubstNo('App Deployment Failed - %1', AppDeploymentStaging."App File Name");
             Body := BuildFailureEmailBody(AppDeploymentStaging);
         end;
 
