@@ -5,7 +5,6 @@ report 50004 "Day Wise Ledger "  // Durgesh 09062026
     UsageCategory = ReportsAndAnalysis;
     RDLCLayout = 'Layouts\DayWiseLegerReport.rdl';
     DefaultLayout = RDLC;
-
     dataset
     {
         dataitem("CustLedgerEntry"; "Cust. Ledger Entry")

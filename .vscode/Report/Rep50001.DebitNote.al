@@ -27,14 +27,11 @@ report 50001 DebitNote // Durgesh 06 May 2026
             column(CompInfoGstReg; CompInfoRec."GST Registration No.")
             { }
             column(CompInfoEmail; CompInfoRec."E-Mail")
-
             { }
-
             column(Posting_Date; Format("Posting Date"))
             { }
             column(Document_Date; Format("Document Date"))
             { }
-
             // Ship To Address
             column(Ship_to_Address; "Ship-to Address")
             { }
