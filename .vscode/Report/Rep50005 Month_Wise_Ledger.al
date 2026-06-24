@@ -1,4 +1,4 @@
-report 60506 "Month Wise Ledger" // Durgesh 09062026
+report 50005 "Month Wise Ledger" // Durgesh 09062026
 {
     ApplicationArea = All;
     Caption = 'Month Wise Ledger';

@@ -1,4 +1,4 @@
-report 60505 "Day Wise Ledger "  // Durgesh 09062026
+report 50004 "Day Wise Ledger "  // Durgesh 09062026
 {
     ApplicationArea = All;
     Caption = 'Summary Month/Day/Voucher Ledger';
@@ -197,27 +197,6 @@ report 60505 "Day Wise Ledger "  // Durgesh 09062026
             {
             }
         }
-
-        // Durgesh 17062026
-        trigger OnQueryClosePage(CloseAction: Action): Boolean
-        begin
-            if CloseAction = Action::OK then begin
-                if MonthWiseReportBool and VoucherWiseLedgerBool then
-                    Error('Please select only one report type at a time.');
-
-                if MonthWiseReportBool then begin
-                    Report.Run(60506);
-                    exit(false);
-                end;
-
-                if VoucherWiseLedgerBool then begin
-                    Report.Run(60507);
-                    exit(false);
-                end;
-            end;
-            exit(true);
-        end;
-        // End Code
     }
 
     var

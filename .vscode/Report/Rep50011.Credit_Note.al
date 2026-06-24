@@ -1,4 +1,4 @@
-Report 50005 "CreditNote"
+Report 50011 "CreditNote"
 {
     DefaultLayout = RDLC;
     RDLCLayout = 'Layouts\Credit-Note.rdl';
