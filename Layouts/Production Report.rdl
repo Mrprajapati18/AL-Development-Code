@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Due_Date">
+          <DataField>Due_Date</DataField>
+        </Field>
+        <Field Name="Search_Description">
+          <DataField>Search_Description</DataField>
+        </Field>
+        <Field Name="Location_Code">
+          <DataField>Location_Code</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="QuantityFormat">
+          <DataField>QuantityFormat</DataField>
+        </Field>
+        <Field Name="Compinfo_Name">
+          <DataField>Compinfo_Name</DataField>
+        </Field>
+        <Field Name="Compinfo_name2">
+          <DataField>Compinfo_name2</DataField>
+        </Field>
+        <Field Name="Compinfo_Address">
+          <DataField>Compinfo_Address</DataField>
+        </Field>
+        <Field Name="Compinfo_Address2">
+          <DataField>Compinfo_Address2</DataField>
+        </Field>
+        <Field Name="Compinfo_Picture">
+          <DataField>Compinfo_Picture</DataField>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+        </Field>
+        <Field Name="INPUTQty">
+          <DataField>INPUTQty</DataField>
+        </Field>
+        <Field Name="INPUTQtyFormat">
+          <DataField>INPUTQtyFormat</DataField>
+        </Field>
+        <Field Name="Source_No_">
+          <DataField>Source_No_</DataField>
+        </Field>
+        <Field Name="OutPut2">
+          <DataField>OutPut2</DataField>
+        </Field>
+        <Field Name="OutPut2Format">
+          <DataField>OutPut2Format</DataField>
+        </Field>
+        <Field Name="diffrance">
+          <DataField>diffrance</DataField>
+        </Field>
+        <Field Name="diffranceFormat">
+          <DataField>diffranceFormat</DataField>
+        </Field>
+        <Field Name="Refresh_No_">
+          <DataField>Refresh_No_</DataField>
+        </Field>
+        <Field Name="Packing_In_Charge">
+          <DataField>Packing_In_Charge</DataField>
+        </Field>
+        <Field Name="Head_Of_Production">
+          <DataField>Head_Of_Production</DataField>
+        </Field>
+        <Field Name="Item_No_">
+          <DataField>Item_No_</DataField>
+        </Field>
+        <Field Name="ConsumpQty">
+          <DataField>ConsumpQty</DataField>
+        </Field>
+        <Field Name="ConsumpQtyFormat">
+          <DataField>ConsumpQtyFormat</DataField>
+        </Field>
+        <Field Name="Order_No_">
+          <DataField>Order_No_</DataField>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+        </Field>
+        <Field Name="Location_Code_LINE">
+          <DataField>Location_Code_LINE</DataField>
+        </Field>
+        <Field Name="Variant_Code">
+          <DataField>Variant_Code</DataField>
+        </Field>
+        <Field Name="ItemNo">
+          <DataField>ItemNo</DataField>
+        </Field>
+        <Field Name="Quantity_line">
+          <DataField>Quantity_line</DataField>
+        </Field>
+        <Field Name="Quantity_lineFormat">
+          <DataField>Quantity_lineFormat</DataField>
+        </Field>
+        <Field Name="OutPutQty">
+          <DataField>OutPutQty</DataField>
+        </Field>
+        <Field Name="OutPutQtyFormat">
+          <DataField>OutPutQtyFormat</DataField>
+        </Field>
+        <Field Name="Output_Quantity">
+          <DataField>Output_Quantity</DataField>
+        </Field>
+        <Field Name="Output_QuantityFormat">
+          <DataField>Output_QuantityFormat</DataField>
+        </Field>
+        <Field Name="Posting_Date">
+          <DataField>Posting_Date</DataField>
+        </Field>
+        <Field Name="Item_Journal_Quantity">
+          <DataField>Item_Journal_Quantity</DataField>
+        </Field>
+        <Field Name="Item_Journal_QuantityFormat">
+          <DataField>Item_Journal_QuantityFormat</DataField>
+        </Field>
+        <Field Name="NegitiveQTY">
+          <DataField>NegitiveQTY</DataField>
+        </Field>
+        <Field Name="NegitiveQTYFormat">
+          <DataField>NegitiveQTYFormat</DataField>
+        </Field>
+        <Field Name="ConsuptionQTY">
+          <DataField>ConsuptionQTY</DataField>
+        </Field>
+        <Field Name="ConsuptionQTYFormat">
+          <DataField>ConsuptionQTYFormat</DataField>
+        </Field>
+        <Field Name="MKMK">
+          <DataField>MKMK</DataField>
+        </Field>
+        <Field Name="MKMKFormat">
+          <DataField>MKMKFormat</DataField>
+        </Field>
+        <Field Name="Bag">
+          <DataField>Bag</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
