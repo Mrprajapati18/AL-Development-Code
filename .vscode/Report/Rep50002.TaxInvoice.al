@@ -224,7 +224,6 @@ report 50002 TaxInvoice // Durgesh 8 May 2026
         TempSalesLine: Record "Sales Invoice Line";
         TempGSTEntry: Record "Detailed GST Ledger Entry";
 
-
         TotalAmtLineGSt: Decimal;
         FinalTotalAmount: Decimal;
         TotalAmount: Decimal;

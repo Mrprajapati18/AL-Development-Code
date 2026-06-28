@@ -1,5 +1,5 @@
 
-table 50101 "BC Transfer Log"
+table 50001 "BC Transfer Log"
 {
       DataClassification = CustomerContent;
     Caption = 'BC Transfer Log';
