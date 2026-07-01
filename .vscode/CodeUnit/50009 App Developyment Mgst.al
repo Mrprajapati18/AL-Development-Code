@@ -189,12 +189,11 @@ codeunit 60000 "App Deployment Management"
 
     procedure SendEmailNotification(var AppDeploymentStaging: Record "App Deployment Staging")
     var
-        EmailMessage: Codeunit "Email Message";
-        Email: Codeunit Email;
         Recipients: List of [Text];
         Subject: Text;
         Body: Text;
         RecipientText: Text;
+        EmailErrorText: Text;
     begin
         if not AppDeploymentStaging."Send Email on Completion" then
             exit;
@@ -220,8 +219,16 @@ codeunit 60000 "App Deployment Management"
 
         // Send email
         if TrySendEmail(Recipients, Subject, Body) then begin
-            // Log success
             Session.LogMessage('0000APP', 'Email notification sent successfully', Verbosity::Normal, DataClassification::SystemMetadata, TelemetryScope::ExtensionPublisher, 'Category', 'AppDeployment');
+        end else begin
+            EmailErrorText := CopyStr(GetLastErrorText(), 1, MaxStrLen(AppDeploymentStaging."Error Message"));
+            if AppDeploymentStaging."Error Message" = '' then
+                AppDeploymentStaging."Error Message" := CopyStr(EmailErrorText, 1, MaxStrLen(AppDeploymentStaging."Error Message"))
+            else
+                AppDeploymentStaging."Error Message" += StrSubstNo('\Email notification failed: %1', EmailErrorText);
+
+            AppDeploymentStaging.Modify(true);
+            Session.LogMessage('0000APP', StrSubstNo('Email notification failed: %1', EmailErrorText), Verbosity::Warning, DataClassification::SystemMetadata, TelemetryScope::ExtensionPublisher, 'Category', 'AppDeployment');
         end;
     end;
 
