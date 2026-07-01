@@ -22,5 +22,14 @@ tableextension 50004 "Item Ledger Entry PBS" extends "Item Ledger Entry"
             Caption = 'Case No.';
             Editable = false;
         }
+        field(50005; "Prod Segment"; Option)
+        {
+            OptionMembers = " ",CSG,B2B,B2C;
+            DataClassification = ToBeClassified;
+        }
+        field(50006; "Vendor Item No."; Code[50])
+        {
+            DataClassification = ToBeClassified;
+        }
     }
 }

@@ -8,7 +8,7 @@ pageextension 50028 "Customer Ledg entry Pbs" extends "Customer Ledger Entries"
             {
                 ApplicationArea = All;
             }
-
+           
         }
     }
 }

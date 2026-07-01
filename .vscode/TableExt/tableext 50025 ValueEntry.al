@@ -13,5 +13,10 @@ tableextension 50025 "Value Entry Color Ext" extends "Value Entry"
             DataClassification = ToBeClassified;
             Caption = 'Color Name';
         }
+         field(50102; "Purchase Type"; Option)
+        {
+            DataClassification = ToBeClassified;
+            OptionMembers = " ","B2B";
+        }
     }
 }

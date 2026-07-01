@@ -1,4 +1,4 @@
-page 50021 "ICICI CIB User Reg. Card"
+page 50031 "ICICI CIB User Reg. Card"
 {
     Caption = 'ICICI CIB Registration Card';
     PageType = Card;
