@@ -783,7 +783,6 @@ page 60004 "Deployment Group Wizard"
                         AppDeploymentStaging."Sequence No." := GetNextSequenceNo();
                         AppDeploymentStaging."Scheduled Date" := GroupScheduleDate;
                         AppDeploymentStaging."Scheduled Time" := GroupScheduleTime;
-                        AppDeploymentStaging."Send Email on Completion" := true;
                         AppDeploymentStaging."Email Recipients" := EmailRecipients;
                         AppDeploymentStaging."Wait for Completion" := true;
                         AppDeploymentStaging.Insert(true);
